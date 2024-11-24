@@ -1,4 +1,6 @@
-@import url(header.css);
+@import url("header.css");
+@import url("footer.css");
+
 
 * {
     margin: 0;
@@ -6,3 +8,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+#objetivos {
+    background-color: rgb(240, 240, 240);
+}

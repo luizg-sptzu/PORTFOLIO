@@ -1,6 +1,33 @@
+nav {
+    background-color: white;
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 0.5em 0;
+    background-color: rgb(240, 240, 240);
+}
+
+nav a {
+    size: 5vw;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-weight: bolder;
+}
+
+.greeting {
+    background: rgb(3,0,55);
+    background: linear-gradient(90deg, rgba(3,0,55,1) 0%, rgba(110,34,181,1) 71%, rgba(0,64,171,1) 100%);
+    padding: 2.5%;
+    text-align: center;
+    color: white;
+    opacity: 85%;
 }
