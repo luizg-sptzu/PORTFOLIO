@@ -1,17 +1,100 @@
 @import url("header.css");
 @import url("footer.css");
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+p, h1, h2, h3 {
+    cursor: default;
+}
+
+#blank {
+    height: 25vh;
 }
 
 body {
     font-family: 'Segoe UI', Verdana, sans-serif;
+    word-wrap: break-word;
+}
+
+main {
+    margin-top: 10vh;
+}
+
+hr {
+    height: 1px;
+    color: linear-gradient(90deg, rgb(65, 118, 202) 0%, rgb(57, 75, 178) 71%, rgb(58, 56, 171) 100%);
+    background: linear-gradient(90deg, rgb(65, 118, 202) 0%, rgb(57, 75, 178) 71%, rgb(58, 56, 171) 100%);
+    font-size: 0;
+    border: 0;
+}
+
+.content {
+    margin: 2.5% 25%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.image img {
+    width: 15%;
+    border-radius: 50%;
+    object-fit: scale-down;
+    overflow: clip;
+}
+
+#sobre {
+    text-align: center;
+}
+
+.content p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.content h2 {
+    text-align: center;
 }
 
 #objetivos {
     background-color: rgb(240, 240, 240);
+}
+
+.contact {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato a {
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    color: lightblue;
+}
+
+#contato p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.example {
+    text-align: center;
+}
+
+.example img {
+    margin: 0 5em;
+    width: 10%;
 }
